@@ -1,13 +1,12 @@
 package projetoConceito;
 
-import java.io.ObjectInputStream.GetField;
 import java.util.ArrayList;
 import java.util.List;
 
 public class App {
 
 	 public static void main(String[] args) {
-		List<Avaliação> avaliações= new ArrayList<Avaliação>();
+		List<Avaliação> avaliações= new ArrayList()<Avaliação>();
 	    Avaliação BD=new Avaliação("Banco de dados II",8);
 	    Avaliação estatística=new Avaliação("Estatística",8);
 	    avaliações.add(BD);
